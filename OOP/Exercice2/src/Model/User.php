@@ -34,9 +34,18 @@ class User
         return $this->username;
     }
 
-    public function setRoles($roles)
+    public function setRoles(array $roles)
     {
-        $this->roles = $roles;
+        $this->roles = [];
+        foreach ($roles as $role){
+            $this->addRole($role);
+        }
+        return $this;
+    }
+    public function addRole (Role $role){
+        if (!in_array($role, $this->roles)){
+            $this->roles[] = $role;
+        }
         return $this;
     }
 

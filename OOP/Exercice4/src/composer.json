@@ -1,0 +1,16 @@
+{
+    "name": "nad/ex4",
+    "description": "ex4",
+    "type": "test",
+    "require": {
+        "symfony/security": "^4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "luxo45",
+            "email": "luxo45@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

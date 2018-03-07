@@ -3,6 +3,9 @@ namespace Model;
 
 class Person
 {
+    /**
+     * @var unknown
+     */
     private $id;
     protected $firstname;
     protected $lastname;
