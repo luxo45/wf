@@ -1,4 +1,4 @@
-# Exercice 3
+# Exercice 4
 
 To be used in further lessons, we should add the UserInterface of symfony to the Model\User class.
 
